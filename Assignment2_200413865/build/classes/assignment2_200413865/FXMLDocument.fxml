@@ -1,0 +1,345 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" fx:id="input" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="753.0" prefWidth="813.0" style="-fx-background-color: #ffff55;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="assignment2_200413865.FXMLDocumentController">
+    <children>
+      <Label layoutX="726.0" layoutY="16.0" text="Points">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font></Label>
+      <Button fx:id="a" layoutX="95.0" layoutY="176.0" mnemonicParsing="false" onAction="#alphabetPressed" prefHeight="52.0" prefWidth="62.0" style="-fx-border-color: blue;  -fx-border-radius: 25px 25px 0px 25px; -fx-background-radius: 25px 25px 0px 25px; -fx-border-radius: 25px 25px 0px 25px; -fx-background-radius: 25px 25px 0px 25px;" text="A">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Button>
+      <Button fx:id="b" layoutX="176.0" layoutY="176.0" mnemonicParsing="false" onAction="#alphabetPressed" prefHeight="52.0" prefWidth="62.0" style="-fx-border-color: blue;  -fx-border-radius: 25px 25px 0px 25px; -fx-background-radius: 25px 25px 0px 25px;" text="B">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Button>
+      <Button fx:id="c" layoutX="252.0" layoutY="176.0" mnemonicParsing="false" onAction="#alphabetPressed" prefHeight="52.0" prefWidth="62.0" style="-fx-border-color: blue;  -fx-border-radius: 25px 25px 0px 25px; -fx-background-radius: 25px 25px 0px 25px;" text="C">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Button>
+      <Button fx:id="d" layoutX="328.0" layoutY="176.0" mnemonicParsing="false" onAction="#alphabetPressed" prefHeight="52.0" prefWidth="62.0" style="-fx-border-color: blue;  -fx-border-radius: 25px 25px 0px 25px; -fx-background-radius: 25px 25px 0px 25px;" text="D">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Button>
+      <Button fx:id="e" layoutX="403.0" layoutY="176.0" mnemonicParsing="false" onAction="#alphabetPressed" prefHeight="52.0" prefWidth="62.0" style="-fx-border-color: blue;  -fx-border-radius: 25px 25px 0px 25px; -fx-background-radius: 25px 25px 0px 25px;" text="E">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Button>
+      <Button fx:id="f" layoutX="479.0" layoutY="176.0" mnemonicParsing="false" onAction="#alphabetPressed" prefHeight="52.0" prefWidth="62.0" style="-fx-border-color: blue;  -fx-border-radius: 25px 25px 0px 25px; -fx-background-radius: 25px 25px 0px 25px;" text="F">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Button>
+      <Button fx:id="g" layoutX="555.0" layoutY="176.0" mnemonicParsing="false" onAction="#alphabetPressed" prefHeight="52.0" prefWidth="62.0" style="-fx-border-color: blue;  -fx-border-radius: 25px 25px 0px 25px; -fx-background-radius: 25px 25px 0px 25px;" text="G">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Button>
+      <Button fx:id="h" layoutX="632.0" layoutY="176.0" mnemonicParsing="false" onAction="#alphabetPressed" prefHeight="52.0" prefWidth="62.0" style="-fx-border-color: blue;  -fx-border-radius: 25px 25px 0px 25px; -fx-background-radius: 25px 25px 0px 25px;" text="H">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Button>
+      <Button fx:id="i" layoutX="95.0" layoutY="283.0" mnemonicParsing="false" onAction="#alphabetPressed" prefHeight="52.0" prefWidth="62.0" style="-fx-border-color: blue;  -fx-border-radius: 25px 25px 0px 25px; -fx-background-radius: 25px 25px 0px 25px;" text="I">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Button>
+      <Button fx:id="j" layoutX="177.0" layoutY="283.0" mnemonicParsing="false" onAction="#alphabetPressed" prefHeight="52.0" prefWidth="62.0" style="-fx-border-color: blue;  -fx-border-radius: 25px 25px 0px 25px; -fx-background-radius: 25px 25px 0px 25px;" text="J">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Button>
+      <Button fx:id="k" layoutX="253.0" layoutY="283.0" mnemonicParsing="false" onAction="#alphabetPressed" prefHeight="52.0" prefWidth="62.0" style="-fx-border-color: blue;  -fx-border-radius: 25px 25px 0px 25px; -fx-background-radius: 25px 25px 0px 25px;" text="K">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Button>
+      <Button fx:id="l" layoutX="329.0" layoutY="283.0" mnemonicParsing="false" onAction="#alphabetPressed" prefHeight="52.0" prefWidth="62.0" style="-fx-border-color: blue;  -fx-border-radius: 25px 25px 0px 25px; -fx-background-radius: 25px 25px 0px 25px;" text="L">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Button>
+      <Button fx:id="m" layoutX="404.0" layoutY="283.0" mnemonicParsing="false" onAction="#alphabetPressed" prefHeight="52.0" prefWidth="62.0" style="-fx-border-color: blue;  -fx-border-radius: 25px 25px 0px 25px; -fx-background-radius: 25px 25px 0px 25px;" text="M">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Button>
+      <Button fx:id="n" layoutX="480.0" layoutY="283.0" mnemonicParsing="false" onAction="#alphabetPressed" prefHeight="52.0" prefWidth="62.0" style="-fx-border-color: blue;  -fx-border-radius: 25px 25px 0px 25px; -fx-background-radius: 25px 25px 0px 25px;" text="N">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Button>
+      <Button fx:id="o" layoutX="556.0" layoutY="283.0" mnemonicParsing="false" onAction="#alphabetPressed" prefHeight="52.0" prefWidth="62.0" style="-fx-border-color: blue;  -fx-border-radius: 25px 25px 0px 25px; -fx-background-radius: 25px 25px 0px 25px;" text="O">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Button>
+      <Button fx:id="p" layoutX="633.0" layoutY="283.0" mnemonicParsing="false" onAction="#alphabetPressed" prefHeight="52.0" prefWidth="62.0" style="-fx-border-color: blue;  -fx-border-radius: 25px 25px 0px 25px; -fx-background-radius: 25px 25px 0px 25px;" text="P">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Button>
+      <Button fx:id="q" layoutX="91.0" layoutY="397.0" mnemonicParsing="false" onAction="#alphabetPressed" prefHeight="52.0" prefWidth="62.0" style="-fx-border-color: blue;  -fx-border-radius: 25px 25px 0px 25px; -fx-background-radius: 25px 25px 0px 25px;" text="Q">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Button>
+      <Button fx:id="r" layoutX="173.0" layoutY="397.0" mnemonicParsing="false" onAction="#alphabetPressed" prefHeight="52.0" prefWidth="62.0" style="-fx-border-color: blue;  -fx-border-radius: 25px 25px 0px 25px; -fx-background-radius: 25px 25px 0px 25px;" text="R">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Button>
+      <Button fx:id="s" layoutX="249.0" layoutY="397.0" mnemonicParsing="false" onAction="#alphabetPressed" prefHeight="52.0" prefWidth="62.0" style="-fx-border-color: blue;  -fx-border-radius: 25px 25px 0px 25px; -fx-background-radius: 25px 25px 0px 25px;" text="S">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Button>
+      <Button fx:id="t" layoutX="325.0" layoutY="397.0" mnemonicParsing="false" onAction="#alphabetPressed" prefHeight="52.0" prefWidth="62.0" style="-fx-border-color: blue;  -fx-border-radius: 25px 25px 0px 25px; -fx-background-radius: 25px 25px 0px 25px;" text="T">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Button>
+      <Button fx:id="u" layoutX="400.0" layoutY="397.0" mnemonicParsing="false" onAction="#alphabetPressed" prefHeight="52.0" prefWidth="62.0" style="-fx-border-color: blue;  -fx-border-radius: 25px 25px 0px 25px; -fx-background-radius: 25px 25px 0px 25px;" text="U">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Button>
+      <Button fx:id="v" layoutX="476.0" layoutY="397.0" mnemonicParsing="false" onAction="#alphabetPressed" prefHeight="52.0" prefWidth="62.0" style="-fx-border-color: blue;  -fx-border-radius: 25px 25px 0px 25px; -fx-background-radius: 25px 25px 0px 25px;" text="V">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Button>
+      <Button fx:id="w" layoutX="552.0" layoutY="397.0" mnemonicParsing="false" onAction="#alphabetPressed" prefHeight="52.0" prefWidth="62.0" style="-fx-border-color: blue;  -fx-border-radius: 25px 25px 0px 25px; -fx-background-radius: 25px 25px 0px 25px;" text="W">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Button>
+      <Button layoutX="629.0" layoutY="397.0" mnemonicParsing="false" onAction="#alphabetPressed" prefHeight="52.0" prefWidth="62.0" style="-fx-border-color: blue;  -fx-border-radius: 25px 25px 0px 25px; -fx-background-radius: 25px 25px 0px 25px;" text="X" fx:id="x">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Button>
+      <Button fx:id="y" layoutX="95.0" layoutY="504.0" mnemonicParsing="false" onAction="#alphabetPressed" prefHeight="52.0" prefWidth="62.0" style="-fx-border-color: blue;  -fx-border-radius: 25px 25px 0px 25px; -fx-background-radius: 25px 25px 0px 25px;" text="Y">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Button>
+      <Button fx:id="z" layoutX="177.0" layoutY="504.0" mnemonicParsing="false" onAction="#alphabetPressed" prefHeight="52.0" prefWidth="62.0" style="-fx-border-color: blue;  -fx-border-radius: 25px 25px 0px 25px; -fx-background-radius: 25px 25px 0px 25px;" text="Z">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Button>
+      <Label layoutX="89.0" layoutY="211.0" />
+      <Label layoutX="140.0" layoutY="211.0" text="1" />
+      <Label layoutX="230.0" layoutY="211.0" text="3" />
+      <Label layoutX="265.0" layoutY="211.0" />
+      <Label layoutX="377.0" layoutY="211.0" text="2" />
+      <Label layoutX="451.0" layoutY="211.0" text="1" />
+      <Label layoutX="527.0" layoutY="211.0" text="4" />
+      <Label layoutX="604.0" layoutY="211.0" prefHeight="17.0" prefWidth="0.0" text="2" />
+      <Label layoutX="680.0" layoutY="211.0" text="4" />
+      <Label layoutX="145.0" layoutY="318.0" text="1" />
+      <Label layoutX="228.0" layoutY="318.0" text="8" />
+      <Label layoutX="298.0" layoutY="318.0" prefHeight="17.0" prefWidth="0.0" text="5" />
+      <Label layoutX="378.0" layoutY="318.0" text="1" />
+      <Label layoutX="452.0" layoutY="318.0" text="3" />
+      <Label layoutX="528.0" layoutY="318.0" text="1" />
+      <Label layoutX="602.0" layoutY="318.0" text="1" />
+      <Label layoutX="681.0" layoutY="318.0" text="3" />
+      <Label layoutX="135.0" layoutY="432.0" text="10" />
+      <Label layoutX="222.0" layoutY="539.0" text="10" />
+      <Label layoutX="297.0" layoutY="432.0" text="1" />
+      <Label layoutX="374.0" layoutY="432.0" text="1" />
+      <Label layoutX="448.0" layoutY="432.0" text="1" />
+      <Label layoutX="524.0" layoutY="432.0" text="4" />
+      <Label layoutX="602.0" layoutY="432.0" text="4" />
+      <Label layoutX="677.0" layoutY="432.0" text="8" />
+      <Label layoutX="142.0" layoutY="539.0" text="4" />
+      <Label layoutX="300.0" layoutY="211.0" text="3" />
+      <Button fx:id="submit" layoutX="303.0" layoutY="526.0" mnemonicParsing="false" onAction="#submitButtonPressed" prefHeight="26.0" prefWidth="166.0" style="-fx-background-color: #39e600;" text="Submit Word!">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font></Button>
+      <Label layoutX="224.0" layoutY="432.0" text="1" />
+      <Button fx:id="restart" layoutX="508.0" layoutY="527.0" mnemonicParsing="false" onAction="#restartButtonPressed" style="-fx-background-color: red;" text="Restart">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font></Button>
+      <Label layoutX="278.0" layoutY="14.0" prefHeight="30.0" prefWidth="248.0" style="-fx-background-color: #bfbfbf;" text="Scrabble points Generator">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Label>
+      <Label fx:id="A" layoutX="117.0" layoutY="229.0" prefHeight="26.0" prefWidth="36.0" style="-fx-background-color: #ffff99;" textAlignment="CENTER">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <Label fx:id="B" layoutX="201.0" layoutY="229.0" prefHeight="26.0" prefWidth="36.0" style="-fx-background-color: #ffff99;">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <Label fx:id="C" layoutX="279.0" layoutY="229.0" prefHeight="26.0" prefWidth="36.0" style="-fx-background-color: #ffff99;">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <Label fx:id="D" layoutX="355.0" layoutY="229.0" prefHeight="26.0" prefWidth="36.0" style="-fx-background-color: #ffff99;">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <Label fx:id="E" layoutX="430.0" layoutY="229.0" prefHeight="26.0" prefWidth="36.0" style="-fx-background-color: #ffff99;">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <Label fx:id="I" layoutX="118.0" layoutY="336.0" prefHeight="26.0" prefWidth="36.0" style="-fx-background-color: #ffff99;">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <Label fx:id="J" layoutX="199.0" layoutY="336.0" prefHeight="26.0" prefWidth="36.0" style="-fx-background-color: #ffff99;">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <Label fx:id="K" layoutX="276.0" layoutY="336.0" prefHeight="26.0" prefWidth="36.0" style="-fx-background-color: #ffff99;">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <Label fx:id="L" layoutX="352.0" layoutY="336.0" prefHeight="26.0" prefWidth="36.0" style="-fx-background-color: #ffff99;">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <Label fx:id="M" layoutX="427.0" layoutY="336.0" prefHeight="26.0" prefWidth="36.0" style="-fx-background-color: #ffff99;">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <Label fx:id="F" layoutX="506.0" layoutY="229.0" prefHeight="26.0" prefWidth="36.0" style="-fx-background-color: #ffff99;">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <Label fx:id="G" layoutX="581.0" layoutY="229.0" prefHeight="26.0" prefWidth="36.0" style="-fx-background-color: #ffff99;">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <Label fx:id="H" layoutX="655.0" layoutY="229.0" prefHeight="26.0" prefWidth="36.0" style="-fx-background-color: #ffff99;">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <Label fx:id="N" layoutX="506.0" layoutY="336.0" prefHeight="26.0" prefWidth="36.0" style="-fx-background-color: #ffff99;">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <Label fx:id="O" layoutX="582.0" layoutY="336.0" prefHeight="26.0" prefWidth="36.0" style="-fx-background-color: #ffff99;">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <Label fx:id="P" layoutX="659.0" layoutY="336.0" prefHeight="26.0" prefWidth="36.0" style="-fx-background-color: #ffff99;">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <Label fx:id="Q" layoutX="115.0" layoutY="450.0" prefHeight="26.0" prefWidth="36.0" style="-fx-background-color: #ffff99;">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <Label fx:id="R" layoutX="196.0" layoutY="450.0" prefHeight="26.0" prefWidth="36.0" style="-fx-background-color: #ffff99;">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <Label fx:id="S" layoutX="273.0" layoutY="450.0" prefHeight="26.0" prefWidth="36.0" style="-fx-background-color: #ffff99;">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <Label fx:id="T" layoutX="349.0" layoutY="450.0" prefHeight="26.0" prefWidth="36.0" style="-fx-background-color: #ffff99;">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <Label fx:id="U" layoutX="424.0" layoutY="450.0" prefHeight="26.0" prefWidth="36.0" style="-fx-background-color: #ffff99;">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <Label fx:id="V" layoutX="503.0" layoutY="450.0" prefHeight="26.0" prefWidth="36.0" style="-fx-background-color: #ffff99;">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <Label fx:id="W" layoutX="579.0" layoutY="450.0" prefHeight="26.0" prefWidth="36.0" style="-fx-background-color: #ffff99;">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <Label fx:id="X" layoutX="656.0" layoutY="450.0" prefHeight="26.0" prefWidth="36.0" style="-fx-background-color: #ffff99;">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <Label fx:id="Y" layoutX="121.0" layoutY="556.0" prefHeight="26.0" prefWidth="36.0" style="-fx-background-color: #ffff99;">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <Label fx:id="Z" layoutX="202.0" layoutY="556.0" prefHeight="26.0" prefWidth="36.0" style="-fx-background-color: #ffff99;">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <Label fx:id="userDisplay" layoutX="92.0" layoutY="62.0" prefHeight="39.0" prefWidth="166.0" style="-fx-background-color: white; -fx-border-color: black;" textAlignment="CENTER">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <Label fx:id="point" layoutX="656.0" layoutY="15.0" prefHeight="26.0" prefWidth="62.0" style="-fx-background-color: white; -fx-border-color: black;" textAlignment="CENTER">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <Label fx:id="history" layoutX="126.0" layoutY="597.0" prefHeight="136.0" prefWidth="624.0" style="-fx-background-color: white; -fx-border-color: black;" textAlignment="CENTER">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <Label fx:id="error" layoutX="280.0" layoutY="62.0" prefHeight="67.0" prefWidth="410.0" style="-fx-background-color: white; -fx-border-color: black;" textAlignment="CENTER">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <Button fx:id="back" layoutX="157.0" layoutY="110.0" mnemonicParsing="false" onAction="#backButtonPressed" style="-fx-border-color: blue;  -fx-border-radius: 25px 25px 0px 25px; -fx-background-radius: 25px 25px 0px 25px;" text="Backspace">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font></Button>
+      <Label layoutX="11.0" layoutY="597.0" text="Previous Words">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Label>
+    </children>
+</AnchorPane>
